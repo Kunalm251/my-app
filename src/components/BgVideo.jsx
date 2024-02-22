@@ -11,7 +11,7 @@ function BgVideo(){
                 <div className="container">
                 <h1 className="wlc">Beyond The Sky</h1>
                <p className='title'>Where Fashion Touches the Horizon</p>
-               <Link style={{textDecoration:"none"}} to='/ShopCategory'><button className='shop-now-btn'>Shop Now</button></Link>
+               <Link style={{textDecoration:"none"}} to='src\components\Pages\ShopCategory.jsx'><button className='shop-now-btn'>Shop Now</button></Link>
 
                 </div>
             </div>
