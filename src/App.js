@@ -9,7 +9,7 @@ import Product from './components/Pages/Product';
 import Cart from './components/Pages/Cart';
 import LoginSignup from './components/Pages/LoginSignup';
 import Home from './components/Pages/Home';
-import BgVideo from './components/BgVideo';
+
 function App() {
   return (
     <div>
