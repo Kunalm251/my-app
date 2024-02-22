@@ -1,0 +1,73 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 6px;
+    background-color:white;
+    height: 70px;
+    width: 100%;
+    object-fit: cover;
+   
+    
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    gap: 50px;
+    color:black;
+    font-weight: 500;
+}
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 2px;
+    border-radius: 10px;
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.nav-login-cart button{
+    width: 80px;
+    height: 35px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    background: white;
+}
+.nav-login-cart button:active{
+    background: #f3f3f3;
+}
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+
+}
